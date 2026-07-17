@@ -12,12 +12,19 @@ st.set_page_config(
     layout="wide"
 )
 
-# KUSTOMISASI CSS GLOBAL (MARGIN ATAS & LAYOUT)
+# KUSTOMISASI CSS GLOBAL (DENGAN TINGGI HEADER YANG DIOPTIMALKAN)
 st.markdown("""
     <style>
-    .st-emotion-cache-1jicfl2 { padding-top: 2rem !important; }
-    .st-emotion-cache-z5fcl4 { padding-top: 1rem !important; }
-    div[data-testid="stToolbar"] { visibility: hidden; }
+    [data-testid="stAppViewContainer"] > section:nth-child(2) > div:first-child {
+        padding-top: 2rem !important;
+    }
+    [data-testid="stMainBlockContainer"] {
+        padding-top: 3rem !important;
+        margin-top: 0px !important;
+    }
+    div[data-testid="stToolbar"] {
+        visibility: hidden;
+    }
     </style>
 """, unsafe_allow_html=True)
 
