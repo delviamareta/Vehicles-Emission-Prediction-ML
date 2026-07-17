@@ -4,6 +4,9 @@
 - **NIM:** A11.2024.15658
 - **Mata Kuliah:** Pembelajaran Mesin - Universitas Dian Nuswantoro
 
+## Live Demo
+**Streamlit App:** https://vehicles-emission-prediction-ml-bq6dftruwdlmgskpdzexjn.streamlit.app/
+
 ## Ringkasan Proyek
 Proyek ini bertujuan untuk memprediksi emisi karbon dioksida (CO2) kendaraan berbasis spesifikasi mesin menggunakan pendekatan machine learning regresi. Model terbaik dioptimasi menggunakan algoritma XGBoost/Random Forest hingga mencapai nilai akurasi R² Score >= 0.90.
 
